@@ -36,7 +36,7 @@ public class Utils {
         time.setMM(startMinutes);
         time.setSS(startSeconds);
         time.setMS(startMilliseconds);
-        System.out.println("" + ((TimeImplemented) time).getTimeInMS());
+        //System.out.println("" + ((TimeImplemented) time).getTimeInMS());
         return time;
     }
 
